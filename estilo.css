@@ -1,0 +1,50 @@
+
+
+    body {
+	}
+
+	.navbar{
+		80%;
+	}
+	.navegador{
+	
+	}
+    ul {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     font-family: sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+    } 
+
+    ul li {
+	background-color: #0883be;
+	float: left;
+	height:2.5em;
+	width: 16.6666%;
+	border-color: #00ABFF;
+	border-style: solid;
+	border-width: 1px;
+  }
+
+  ul a {
+	color: #FFF;
+	text-decoration:none; 
+	padding: 10px;
+
+	display: block;
+	height: 100%;
+	text-align: center;
+}
+  ul a:hover {
+	text-decoration:none; 
+}
+
+.general {
+ 	background-color:  #00ABFF;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 100%;
+ }
+
