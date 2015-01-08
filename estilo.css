@@ -16,12 +16,17 @@
      font-weight: bold;
     } 
 
+<<<<<<< HEAD
     #navegador ul li {
 	background-color: #0883be;
+=======
+    ul li {
+	background-color: #00ABFF;
+>>>>>>> 5b9a68868cdee54da7eb51d7efebf9b38955ef1b
 	float: left;
 	height:2.5em;
 	width: 16.6666%;
-	border-color: #00ABFF;
+	border-color:  #0883be ;
 	border-style: solid;
 	border-width: 1px;
   }
@@ -37,12 +42,11 @@
 }
   ul a:hover {
 	text-decoration:none; 
+	font-size: 18px;
+	font: fantasy;
+	color: #fff;
+	font-weight: bolder;
 }
 
-.general {
- 	background-color:  #00ABFF;
- 	margin-left: auto;
- 	margin-right: auto;
- 	width: 100%;
- }
+
 
