@@ -1,7 +1,7 @@
 
 	#titulo1 h1{
 		color: #0883BE;
-		font-family: 'Arial';
+		font-family: 'helvetica Neue';
 		font-size: 35px;
 		padding-bottom: 2%;
 		font-weight: bolder;
@@ -16,4 +16,15 @@
 		color: #000;
 		font-size: 17px;
 		text-align: justify;
+	}
+
+	#titulo1 a{
+		font-weight: bolder;
+		text-align: center;
+		color: #0883BE;
+		font-size: 35px;
+	}
+
+	.carousel-inner img{
+		width: 750px;
 	}
