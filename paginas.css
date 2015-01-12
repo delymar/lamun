@@ -1,6 +1,38 @@
 
-	#titulo1 h1{
-		color: #0883BE;
+	
+	header p{
+		text-align: center;
+		/*text-shadow: -1px 0px 4px rgba(15, 30, 130, 1);*/
+		/*text-shadow: -1px -1px 4px rgba(0,0,0, 1);
+		color: white;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 30px;*/
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 3.5%;
+		font-family: 'Helvetica Neue',Helvetica, sans-serif;
+		line-height: 1em;
+		color: #00A6F6;
+		font-weight:bold;
+		font-size: 30px;
+		text-shadow:0px 0px 0 rgb(-42,128,213),1px 1px 0 rgb(-83,87,172),2px 2px 0 rgb(-125,45,130),3px 3px 0 rgb(-167,3,88), 4px 4px 0 rgb(-209,-39,46),5px 5px 4px rgba(0,0,0,1),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+	}
+
+	.cabecera
+	{
+		padding:10px 20px 5px 10px;
+	    background: url('imagenes/banner-01.png') no-repeat;
+	    background-size: 100% 100%;
+	    height: 10em;
+	}
+
+	.navbar{
+		80%;
+	}
+
+
+	h1{
+		color: #00A6F6;
 		font-family: 'helvetica Neue';
 		font-size: 35px;
 		padding-bottom: 2%;
@@ -9,6 +41,7 @@
 		width: 100%;
 		height: 40px;
 	}
+
 
 	#titulo1 p{
 		width: 100%;
@@ -28,3 +61,73 @@
 	.carousel-inner img{
 		width: 750px;
 	}
+
+	.container h1{
+		color: #00A6F6;
+		font-family: 'helvetica Neue';
+		font-size: 35px;
+		padding-bottom: 2%;
+		font-weight: bolder;
+		text-align: left;
+		width: 100%;
+		height: 40px;
+	}
+
+	.slider { 
+  position: relative;
+  width: 100%; 
+  overflow: hidden; 
+}
+
+.slides { 
+  position: relative;
+  padding: 0;
+  list-style: none;
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.slides li { display: inline-block; }
+
+.slides li img { 
+  width: 100%; 
+  height: auto;
+}
+
+/**
+ * Recommended defaults
+ */
+
+.slide-nav { 
+  position: absolute; 
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.slide-nav ul {
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+}
+
+.slide-nav li { display: inline-block; }
+
+.slide-nav li a {
+  display: block;
+  color: #444;
+  background: white;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 0 6px;
+}
+
+.slide-nav li a.active { color: #DEBB1E; }

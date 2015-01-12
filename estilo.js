@@ -3,8 +3,8 @@
 **/
 $(document).ready(function() {
 	$('#carousel_principal').carousel({
-		interval: 2000
+		interval: 2000;
+		width:250%
 	});
 };
-
 
