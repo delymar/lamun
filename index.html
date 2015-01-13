@@ -10,8 +10,12 @@
 		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<script  src="dist/js/jquery-1.11.1.js"></script>
 		<script  src="dist/js/bootstrap.js"></script>
-		<script  src="dist/estilo.js"></script>
 		<script  src="dist/js/slimslider.min.js"></script>
+
+		<!-- Font-Awesome-->
+		<link href="font-awesome/css/font-awesome.css" rel="stylesheet" type='text/css'>
+
+
 	</HEAD>
 
 <!-- Inicio del Body -->
@@ -40,36 +44,30 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
-							<section class="slider">
-
-						  <nav class="slide-nav">
-						    <ul>
-						      <li><a href="#">1</a></li>
-						      <li><a href="#">2</a></li>
-						      <li><a href="#">3</a></li>
-						      <li><a href="#">4</a></li>
-						    </ul>
-						  </nav>
-						  
-						  <ul class="slides">
-						    <li><img src="imagenes/slider_inicio/1.jpg" alt="Slide 05"></li>
-						    <li><img src="imagenes/slider_inicio/2.jpg" alt="Slide 05"></li>
-						    <li><img src="imagenes/slider_dinicio/3.jpg" alt="Slide 05"></li>
-						    <li><img src="imagenes/slider_dinicio/4.jpg" alt="Slide 05"></li>
-						  </ul> 
-						  
+						<section class="slider">
+							  <nav class="slide-nav">
+							    <ul>
+							      <li><a href="#">1</a></li>
+							      <li><a href="#">2</a></li>
+							      <li><a href="#">3</a></li>
+							      <li><a href="#">4</a></li>
+							    </ul>
+							  </nav>							  
+							  <ul class="slides">
+							    <li><img src="imagenes/slider_inicio/1.jpg" alt="Slide 05"></li>
+							    <li><img src="imagenes/slider_inicio/2.jpg" alt="Slide 05"></li>
+							    <li><img src="imagenes/slider_inicio/3.jpg" alt="Slide 05"></li>
+							    <li><img src="imagenes/slider_inicio/4.jpg" alt="Slide 05"></li>
+							  </ul> 
 						</section>
-						<script>
-						  $('.slider').slimSlider({
-						    animSpeed  : '0.5s', // animation speed
-						    autoPlay   : true,   // auto play option
-						    autoDelay  : 4000,
-						    hoverPause : true    // auto play pause on hover
-						  });
-						</script>
+					</div>
+					<div class="col-md-4">
+						<a class="twitter-timeline" href="https://twitter.com/LAMUN_UCABG" data-widget-id="553308587339288578">Tweets por el @LAMUN_UCABG.</a>
 
 					</div>
 				</div>
+	  		</div>
+
 			</div>
 
 <!-- Footer de la Página -->
@@ -77,27 +75,24 @@
 	  	<div class="container">
 	  		<br>
 	  		<br>
+	  		<!--Línea de Iconos Social Networks-->
 	  		<div class="row">
-	  			<div class="col-md-12">
-	  				<div class="col-md-4"></div>
-	  				<div class="col-md-6">
-
-	  			<a href="https://twitter.com/LAMUN_UCABG" class="twitter-follow-button" data-show-count="true">Seguir @LAMUN_UCABG</a>
-	  			<style>.ig-b- { display: inline-block; }
-.ig-b- img { visibility: hidden; }
-.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
-.ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }</style>
-<a href="http://instagram.com/lamunucabg?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
-					</div>
+	  			<div class="col-md-5">
+	  			</div>
+	  			<div class="col-md-1">
+	  				<a href="https://twitter.com/LAMUN_UCABG"><span class="fa fa-twitter fa-inverse fa-3x"></span></a>
+	  			</div>
+	  			<div class="col-md-1">
+	  			</div>
+	  			<div class="col-md-1">
+		  			<a href="http://instagram.com/lamunucabg/"><span class="fa fa-instagram fa-inverse fa-3x"></span></a>
 	  			</div>
 	  		</div>
 	  		<div class="row">
 	  			<div class="col-md-1"></div>
 	  			<div class="col-md-3">
 	  				<address>
-	  					<strong><h4>LAMUN</h4></strong>
+	  					<h4><strong>LAMUN</strong></h4>
 	  					<div class="divider"></div>
 						 <strong>Universidad Cat&oacutelica Andr&eacutes Bello </strong><br>
 						  Avenida Atlantico<br>
@@ -115,7 +110,7 @@
 	  			</div>
 	  			<div class="col-md-2">
 	  				<address>
-	  					<strong><h4 align="left">Mapa del Sitio</h4></strong>
+	  					<h4 align="left"><strong>Mapa del Sitio</strong></h4>
 	  					<div class="divider"></div>
 	  						<ul class="list-unstyled">
 							 	<li><a href="#" >Inicio</a></li>
@@ -132,7 +127,16 @@
 	    
 		</div>
 	</footer>
-
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!--Script que carga el SlimSlider-->
+						<script>
+						  $('.slider').slimSlider({
+						    animSpeed  : '0.5s', // animation speed
+						    autoPlay   : true,   // auto play option
+						    autoDelay  : 4000,
+						    hoverPause : true    // auto play pause on hover
+						  });
+						</script>
+<!--Scripc que carga timeline de Twitter-->
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</body>
 </HTML> 
