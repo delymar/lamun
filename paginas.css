@@ -58,6 +58,10 @@
 		font-size: 35px;
 	}*/
 
+	#titulo1 img{
+		border:1px solid black;
+	}
+
 	.carousel-inner img{
 		width: 750px;
 	}
