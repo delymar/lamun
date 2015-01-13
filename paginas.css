@@ -12,7 +12,7 @@
 		margin-top: 3.5%;
 		font-family: 'Helvetica Neue',Helvetica, sans-serif;
 		line-height: 1em;
-		color: #00A6F6;
+		color: white;
 		font-weight:bold;
 		font-size: 30px;
 		text-shadow:0px 0px 0 rgb(-42,128,213),1px 1px 0 rgb(-83,87,172),2px 2px 0 rgb(-125,45,130),3px 3px 0 rgb(-167,3,88), 4px 4px 0 rgb(-209,-39,46),5px 5px 4px rgba(0,0,0,1),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
@@ -76,7 +76,8 @@
 	.slider { 
   position: relative;
   width: 100%; 
-  overflow: hidden; 
+  overflow: hidden;
+  height: 25em;
 }
 
 .slides { 
