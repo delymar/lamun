@@ -53,30 +53,29 @@
             <div id="titulo1"><h1 >Ya puedes escribirnos</h1></div>
             <label for="InputName">Indique su nombre</label>
             <div class="input-group">
-              <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Nombre y Apellido" required>
+              <input type="text" class="form-control" name="user" id="user" placeholder="Nombre y Apellido" required>
               <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
           </div>
           <div class="form-group">
             <label for="InputEmail">Su Email</label>
             <div class="input-group">
-              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="ejemplo@dominio.com" required  >
+              <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@dominio.com" required  >
               <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
           </div>
           <div class="form-group">
             <label for="InputMessage">Mensaje</label>
             <div class="input-group"
     >
-              <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+              <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
               <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
           </div>
-          <?php  ?>
-          <div class="form-group">
+          <!--<div class="form-group">
             <label for="InputReal">¿Cuánto es 4+<?php echo (date("d")*10); ?>?<br>(Disculpe, estamos verificando que sea una persona)</label>
             <div class="input-group">
               <input type="text" class="form-control" name="InputReal" id="InputReal" required>
               <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-          </div>
-          <input type="submit" name="submit" id="submit" value="Enviar" disabled="" class="btn btn-info pull-right">
+          </div>-->
+          <input type="submit" name="submit" id="submit" value="Enviar" class="btn btn-info pull-right">
         </div>
       </form>
       <div class="col-md-2"></div>
@@ -153,5 +152,34 @@
     </div>
   </footer>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
+  <script type="text/javascript">
+  function enviar_correo()
+  {
+      var usuario  = document.getElementById("user").value;
+      var correo   = document.getElementById("email").value;
+      var mensaje  = document.getElementById("message").value;
+      //var captcha = document.getElementById("InputReal").value;
+
+      $.ajax({   
+          type: "POST",
+          url:"mail.php",
+          data:{
+              user:usuario,
+              email:correo,
+              message:mensaje
+          },
+          success: function(){
+              alert('Su mensaje ha sido enviado exitosamente.');
+              limpiar_form_contacto();
+          },
+          error: function(){
+              alert('No se ha podido enviar su mensaje.');
+          }
+      });
+  }
+</script>
+
+
   </body>
 </HTML> 

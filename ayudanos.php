@@ -50,7 +50,7 @@
 						<br><br><br>
 						<p>Agradecemos cualquier donación, grande o pequeña,  pues permite la preparación y participación de nuestros delegados en y para Modelos de Naciones Unidas de un alto nivel Académico.</p>
 						<br>
-						<p><!--A continuación por medio del siguient enlace "Donativo"-->Muy Pronto podrás contribuir con nosotros, donando a través de la plataforma de MercadoPago:</p>
+						<p>A continuación por medio del siguiente enlace podrás contribuir con nosotros, donando a través de la plataforma de MercadoPago:</p>
 					</br></br>
 					<!--<input type="number" class="form-control" id="cantidad" name="cantidad" placeholder="Donación .BsF" style="width:20%" required >-->
 <?php
@@ -79,7 +79,10 @@
 	$preference = $mp->create_preference ($preference_data);*/
 ?>
 					<!--<a href="<?php echo $preference['response']['init_point']; ?>">Pagar</a>-->
-
+<a href="https://www.mercadopago.com/mlv/checkout/pay?pref_id=144225358-30965a09-cd17-4928-8eb9-bd474d9b6730" name="MP-payButton" class="blue-l-rn-ar">Donación de Bs. 100</a>
+<script type="text/javascript">
+(function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+</script>
 						<h2>¡MUCHAS GRACIAS POR TU APOYO!</h2>
 
 				</div>
