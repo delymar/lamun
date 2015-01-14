@@ -51,12 +51,12 @@
 		text-align: justify;
 	}
 
-	#titulo1 a{
+	/*#titulo1 a{
 		font-weight: bolder;
 		text-align: center;
 		color: #0883BE;
 		font-size: 35px;
-	}
+	}*/
 
 	.carousel-inner img{
 		width: 750px;
@@ -74,7 +74,6 @@
 	}
 
 	.slider { 
-<<<<<<< HEAD
 	  position: relative;
 	  width: 100%; 
 	  overflow: hidden; 
@@ -132,11 +131,6 @@
 	}
 
 	.slide-nav li a.active { color: #DEBB1E; }
-=======
-  position: relative;
-  width: 100%; 
-  overflow: hidden;
-  height: 25em;
 }
 
 .slides { 
@@ -191,4 +185,3 @@
 }
 
 .slide-nav li a.active { color: #DEBB1E; }
->>>>>>> 2a2eace63b8f42d0e86bb94e16199b7adcbf82e1

@@ -2,14 +2,19 @@
 <!DOCTYPE html>
 <HTML>
 	<HEAD>
-		<TITLE> LAMUN</TITLE>
+		<title>LAMUN | Aprende como ayudarnos</title>
+		<meta name="Description" content="Página Oficial de LAMUN UCAB Guayana, Delegación ante Modelos de Naciones Unidas en Latino américa. Información General y contacto. ONU.">
 		<meta charset="utf-8">
+    	<link rel="icon" href="imagenes/favico.ico">
 		<LINK REL="stylesheet" HREF="estilo.css" TYPE="text/css">
+		<LINK REL="stylesheet" HREF="paginas.css" TYPE="text/css">
 		<LINK REL="stylesheet" HREF="dist/css/bootstrap.css" TYPE="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<script  src="dist/js/jquery-1.11.1.js"></script>
 		<script  src="dist/js/bootstrap.js"></script>
-		<script  src="dist/estilo.js"></script>
+		<script  src="dist/js/slimslider.min.js"></script>
+		<!-- Font-Awesome-->
+		<link href="font-awesome/css/font-awesome.css" rel="stylesheet" type='text/css'>
 	</HEAD>
 
 <!-- Inicio del Body -->
@@ -26,8 +31,8 @@
 			</div>	
 			<div id="navegador" class="navegador navbar">
 				<ul>
-					<li><a href="index.html" >INICIO</a></li>
-					<li><a href="delegacion.html" >LA DELEGACI&OacuteN</a></li>
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="delegacion.html">LA DELEGACI&OacuteN</a></li>
 					<li><a href="evento.html">EVENTOS</a></li>
 					<li><a href="#" class="activo">COMO AYUDARNOS</a></li>
 					<li><a href="contacto.php">CONTACTO</a></li>
@@ -35,20 +40,45 @@
 			</div>
 		</header>
 		<div class="container">
-				<div class="row">
-					
+				<div class="row">					
 					<div class="col-md-3">
-						<img src="LOGO.png" width='250' height='250'>
-						
-					</div>
-				
+						<img src="LOGO.png" width='250' height='250'>						
+					</div>			
 				<div  id="titulo1" class="col-md-9">
 						<h1>Como Ayudarnos</h1>
 						<p>LAMUN UCAB-Guayana es una agrupación sin fines de lucro y está conformada por estudiantes de las diferentes carreras que ofrece la Universidad Católica Simón Bolívar. Como delegación, buscamos que el aspecto económico no sea una limitante para la participación y es por esto que el apoyo brindado a través de patrocinios y donaciones es tan importante para la consecución de los fines de nuestra delegación.</p>
+						<br><br><br>
 						<p>Agradecemos cualquier donación, grande o pequeña,  pues permite la preparación y participación de nuestros delegados en y para Modelos de Naciones Unidas de un alto nivel Académico.</p>
-						<p>A continuación te mostramos botones preestablecidos para que puedas contribuir con nosotros, donando a través de la plataforma de MercadoPago:</p>
+						<br>
+						<p><!--A continuación por medio del siguient enlace "Donativo"-->Muy Pronto podrás contribuir con nosotros, donando a través de la plataforma de MercadoPago:</p>
 					</br></br>
-						<a href="">AYUDA AQUI</a>
+					<!--<input type="number" class="form-control" id="cantidad" name="cantidad" placeholder="Donación .BsF" style="width:20%" required >-->
+<?php
+	//require_once ('lib/mercadopago.php');
+
+	/* Obtén tus credenciales en:
+	* Argentina: https://www.mercadopago.com/mla/herramientas/aplicaciones
+	* Brasil: https://www.mercadopago.com/mlb/ferramentas/aplicacoes
+	* México: https://www.mercadopago.com/mlm/herramientas/aplicaciones
+	* Venezuela: https://www.mercadopago.com/mlv/herramientas/aplicaciones
+	* Colombia: https://www.mercadopago.com/mco/herramientas/aplicaciones
+	*/
+	
+	/*$mp = new MP('TU_CLIENT_ID', 'TU_CLIENT_SECRET');
+	$preference_data = array(
+	    "items" => array(
+	       array(
+	           "title" => "Donativo LAMUN UCAB Guayana",
+	           "quantity" => 1,
+	           "currency_id" => "VEF",
+	           "unit_price" => 100.00
+	       )
+	    )
+	);
+
+	$preference = $mp->create_preference ($preference_data);*/
+?>
+					<!--<a href="<?php echo $preference['response']['init_point']; ?>">Pagar</a>-->
 
 						<h2>¡MUCHAS GRACIAS POR TU APOYO!</h2>
 
@@ -63,27 +93,24 @@
 	  	<div class="container">
 	  		<br>
 	  		<br>
+	  		<!--Línea de Iconos Social Networks-->
 	  		<div class="row">
-	  			<div class="col-md-12">
-	  				<div class="col-md-4"></div>
-	  				<div class="col-md-6">
-
-	  			<a href="https://twitter.com/LAMUN_UCABG" class="twitter-follow-button" data-show-count="true">Seguir @LAMUN_UCABG</a>
-	  			<style>.ig-b- { display: inline-block; }
-.ig-b- img { visibility: hidden; }
-.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
-.ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }</style>
-<a href="http://instagram.com/lamunucabg?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
-					</div>
+	  			<div class="col-md-5">
+	  			</div>
+	  			<div class="col-md-1">
+	  				<a href="https://twitter.com/LAMUN_UCABG"><span class="fa fa-twitter fa-inverse fa-3x"></span></a>
+	  			</div>
+	  			<div class="col-md-1">
+	  			</div>
+	  			<div class="col-md-1">
+		  			<a href="http://instagram.com/lamunucabg/"><span class="fa fa-instagram fa-inverse fa-3x"></span></a>
 	  			</div>
 	  		</div>
 	  		<div class="row">
 	  			<div class="col-md-1"></div>
 	  			<div class="col-md-3">
 	  				<address>
-	  					<strong><h4>LAMUN</h4></strong>
+	  					<h4><strong>LAMUN</strong></h4>
 	  					<div class="divider"></div>
 						 <strong>Universidad Cat&oacutelica Andr&eacutes Bello </strong><br>
 						  Avenida Atlantico<br>
@@ -101,14 +128,14 @@
 	  			</div>
 	  			<div class="col-md-2">
 	  				<address>
-	  					<strong><h4 align="left">Mapa del Sitio</h4></strong>
+	  					<h4 align="left"><strong>Mapa del Sitio</strong></h4>
 	  					<div class="divider"></div>
 	  						<ul class="list-unstyled">
 							 	<li><a href="index.html" >Inicio</a></li>
 								<li><a href="delegacion.html">La Delegaci&oacuten</a></li>
 								<li><a href="evento.html">Eventos</a></li>
 								<li><a href="#">Como Ayudarnos</a></li>
-								<li><a href="contacto.html">Contacto</a></li> 
+								<li><a href="contacto.php">Contacto</a></li> 
 							</ul>
 					</address>
 	  			</div>

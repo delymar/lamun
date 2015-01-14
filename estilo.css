@@ -4,12 +4,12 @@
 	}
 
 	header p{
-		text-align: center;
 		/*text-shadow: -1px 0px 4px rgba(15, 30, 130, 1);*/
 		/*text-shadow: -1px -1px 4px rgba(0,0,0, 1);
 		color: white;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 30px;*/
+		text-align: center;
 		width: 80%;
 		margin-left: 10%;
 		margin-top: 3.5%;
@@ -117,12 +117,85 @@
 		overflow: hidden;
 		background-color: #e5e5e5;
 	}
-
+	.divider-inverse{		
+		height: 1px;
+		margin: 9px 0;
+		overflow: hidden;
+		width: 80%;
+		background-color: #ccc;
+		margin-left: 10%;
+		margin-top: -5%;
+	}
 
 	header img{
 		width: 100%;
 		margin-bottom: 0px;
 	
+	}
+	.titulo_premios{
+		margin-top: 4em;
+		background-color: #00ABFF;
+		float: left;
+		height:6em;
+		width: 100%;
+		color: white;
+		margin: 0px;
+	}
+	.titulo_premios p{
+		text-align: center;
+		font-family: 'Helvetica Neue',Helvetica, sans-serif;
+		line-height: 1em;
+		margin-top: 0.2em;
+		color: white;
+		font-weight:bold;
+		font-size: 4em;
+		text-shadow:0px 0px 0 rgb(-42,128,213),1px 1px 0 rgb(-83,87,172),2px 2px 0 rgb(-125,45,130),3px 3px 0 rgb(-167,3,88), 4px 4px 0 rgb(-209,-39,46),5px 5px 4px rgba(0,0,0,1),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+	}
+	.hall{
+		-webkit-transition: margin-top 0.3s; /* For Safari 3.1 to 6.0 */
+    	transition: margin-top 0.3s;
+		height: 25em;
+		border-left: 1px solid #ccc; 
+		width:1px; 
+		margin-top: 1em;
+		text-align: justify; 
+	}
+	.hall h4{
+		text-align: center;
+		font-size: 1em;
+	}
+	.hall h5{
+		text-align: left;
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+	.hall li{
+		text-align: left;
+		margin-left: -10%;
+	}
+	.hall-right{
+		-webkit-transition: margin-top 0.3s; /* For Safari 3.1 to 6.0 */
+    	transition: margin-top 0.3s;
+		height: 25em;
+		border-right: 1px solid #ccc; 
+		width:1px; 
+		margin-top: 1em; 
+	}
+
+
+	.hall:hover,.hall-right:hover{
+		-webkit-transition: margin-top 0.3s; /* For Safari 3.1 to 6.0 */
+    	transition: margin-top 0.3s;
+		background-color: #00ABFF;
+		color:white;
+		margin-top: -0.5%;
+	}
+	
+	.premios img{
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 2%;
+		border: 1px solid black;
 	}
 
 

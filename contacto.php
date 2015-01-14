@@ -2,28 +2,39 @@
 <!DOCTYPE html>
 <HTML>
   <HEAD>
-    <TITLE> LAMUN</TITLE>
+    <title>LAMUN | Contacto</title>
+    <meta name="Description" content="Página Oficial de LAMUN UCAB Guayana, Delegación ante Modelos de Naciones Unidas en Latino américa. Información General y contacto. ONU.">
     <meta charset="utf-8">
+      <link rel="icon" href="imagenes/favico.ico">
     <LINK REL="stylesheet" HREF="estilo.css" TYPE="text/css">
+    <LINK REL="stylesheet" HREF="paginas.css" TYPE="text/css">
     <LINK REL="stylesheet" HREF="dist/css/bootstrap.css" TYPE="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <script  src="dist/js/jquery-1.11.1.js"></script>
     <script  src="dist/js/bootstrap.js"></script>
-    <LINK REL="stylesheet" HREF="paginas.css" TYPE="text/css">
+    <script  src="dist/js/slimslider.min.js"></script>
+    <!-- Font-Awesome-->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type='text/css'>
   </HEAD>
 
 <!-- Inicio del Body -->
   <body>
 <!--Cabecera de la Página-->
     <header>
-        <H1 align="center"> Delegación de Modelos de Naciones Unidas en Latinoamerica</H1>
-    </br>
-    </br>     
+      <div class="cabecera">
+        <div class="row">
+              <div class="span9">
+                      
+              </div>
+              <p>Delegacion ante Modelos de Naciones Unidas en Latinoamérica<br>UCAB - Guayana</p>
+        </div>    
+      </div>  
       <div id="navegador" class="navegador navbar">
         <ul>
           <li><a href="index.html">INICIO</a></li>
           <li><a href="delegacion.html">LA DELEGACI&OacuteN</a></li>
           <li><a href="evento.html">EVENTOS</a></li>
-          <li><a href="ayudanos.html">COMO AYUDARNOS</a></li>
+          <li><a href="ayudanos.php">COMO AYUDARNOS</a></li>
           <li><a href="#" class="activo">CONTACTO</a></li>
         </ul>
       </div>
@@ -65,7 +76,7 @@
               <input type="text" class="form-control" name="InputReal" id="InputReal" required>
               <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
           </div>
-          <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+          <input type="submit" name="submit" id="submit" value="Enviar" disabled="" class="btn btn-info pull-right">
         </div>
       </form>
       <div class="col-md-2"></div>
@@ -89,27 +100,24 @@
       <div class="container">
         <br>
         <br>
+        <!--Línea de Iconos Social Networks-->
         <div class="row">
-          <div class="col-md-12">
-            <div class="col-md-4"></div>
-            <div class="col-md-6">
-
-          <a href="https://twitter.com/LAMUN_UCABG" class="twitter-follow-button" data-show-count="true">Seguir @LAMUN_UCABG</a>
-          <style>.ig-b- { display: inline-block; }
-.ig-b- img { visibility: hidden; }
-.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
-.ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }</style>
-<a href="http://instagram.com/lamunucabg?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
+          <div class="col-md-5">
           </div>
+          <div class="col-md-1">
+            <a href="https://twitter.com/LAMUN_UCABG"><span class="fa fa-twitter fa-inverse fa-3x"></span></a>
+          </div>
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-1">
+            <a href="http://instagram.com/lamunucabg/"><span class="fa fa-instagram fa-inverse fa-3x"></span></a>
           </div>
         </div>
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-3">
             <address>
-              <strong><h4>LAMUN</h4></strong>
+              <h4><strong>LAMUN</strong></h4>
               <div class="divider"></div>
              <strong>Universidad Cat&oacutelica Andr&eacutes Bello </strong><br>
               Avenida Atlantico<br>
@@ -127,14 +135,14 @@
           </div>
           <div class="col-md-2">
             <address>
-              <strong><h4 align="left">Mapa del Sitio</h4></strong>
+              <h4 align="left"><strong>Mapa del Sitio</strong></h4>
               <div class="divider"></div>
                 <ul class="list-unstyled">
-                <li><a href="#" >Inicio</a></li>
+                <li><a href="index.html" >Inicio</a></li>
                 <li><a href="delegacion.html">La Delegaci&oacuten</a></li>
                 <li><a href="evento.html">Eventos</a></li>
-                <li><a href="ayudanos.html">Como Ayudarnos</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
+                <li><a href="ayudanos.php">Como Ayudarnos</a></li>
+                <li><a href="#">Contacto</a></li> 
               </ul>
           </address>
           </div>
@@ -144,7 +152,6 @@
       
     </div>
   </footer>
-
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </body>
 </HTML> 
