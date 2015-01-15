@@ -9,7 +9,7 @@
 		<LINK REL="stylesheet" HREF="estilo.css" TYPE="text/css">
 		<LINK REL="stylesheet" HREF="paginas.css" TYPE="text/css">
 		<LINK REL="stylesheet" HREF="dist/css/bootstrap.css" TYPE="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
 		<script  src="dist/js/jquery-1.11.1.js"></script>
 		<script  src="dist/js/bootstrap.js"></script>
 		<script  src="dist/js/slimslider.min.js"></script>
@@ -44,46 +44,29 @@
 					<div class="col-md-3">
 						<img src="LOGO.png" width='250' height='250'>						
 					</div>			
-				<div  id="titulo1" class="col-md-9">
-						<h1>Como Ayudarnos</h1>
-						<p>LAMUN UCAB-Guayana es una agrupación sin fines de lucro y está conformada por estudiantes de las diferentes carreras que ofrece la Universidad Católica Simón Bolívar. Como delegación, buscamos que el aspecto económico no sea una limitante para la participación y es por esto que el apoyo brindado a través de patrocinios y donaciones es tan importante para la consecución de los fines de nuestra delegación.</p>
-						<br><br><br>
-						<p>Agradecemos cualquier donación, grande o pequeña,  pues permite la preparación y participación de nuestros delegados en y para Modelos de Naciones Unidas de un alto nivel Académico.</p>
-						<br>
-						<p>A continuación por medio del siguiente enlace podrás contribuir con nosotros, donando a través de la plataforma de MercadoPago:</p>
+				<div  id="titulo1" class="col-md-9">						
+						<p><h1>Como Ayudarnos</h1><br>
+						LAMUN UCAB-Guayana es una agrupación sin fines de lucro y está conformada por estudiantes de las diferentes
+						carreras que ofrece la Universidad Católica Andrés Bello, buscamos que el aspecto económico no sea una 
+						limitante para la participación y es por esto que el apoyo brindado a través de patrocinios y donaciones es 
+						tan importante para la consecución de los fines de nuestra delegación.<br>
+						Agradecemos cualquier donación, grande o pequeña,  pues permite la preparación y participación de nuestros 
+						delegados en y para Modelos de Naciones Unidas de un alto nivel Académico.<br><br>
+						A continuación por medio del siguiente enlace podrás contribuir con nosotros, donando a través de la plataforma de MercadoPago:</p>
 					</br></br>
-					<!--<input type="number" class="form-control" id="cantidad" name="cantidad" placeholder="Donación .BsF" style="width:20%" required >-->
-<?php
-	//require_once ('lib/mercadopago.php');
-
-	/* Obtén tus credenciales en:
-	* Argentina: https://www.mercadopago.com/mla/herramientas/aplicaciones
-	* Brasil: https://www.mercadopago.com/mlb/ferramentas/aplicacoes
-	* México: https://www.mercadopago.com/mlm/herramientas/aplicaciones
-	* Venezuela: https://www.mercadopago.com/mlv/herramientas/aplicaciones
-	* Colombia: https://www.mercadopago.com/mco/herramientas/aplicaciones
-	*/
-	
-	/*$mp = new MP('TU_CLIENT_ID', 'TU_CLIENT_SECRET');
-	$preference_data = array(
-	    "items" => array(
-	       array(
-	           "title" => "Donativo LAMUN UCAB Guayana",
-	           "quantity" => 1,
-	           "currency_id" => "VEF",
-	           "unit_price" => 100.00
-	       )
-	    )
-	);
-
-	$preference = $mp->create_preference ($preference_data);*/
-?>
-					<!--<a href="<?php echo $preference['response']['init_point']; ?>">Pagar</a>-->
 <a href="https://www.mercadopago.com/mlv/checkout/pay?pref_id=144225358-30965a09-cd17-4928-8eb9-bd474d9b6730" name="MP-payButton" class="blue-l-rn-ar">Donación de Bs. 100</a>
 <script type="text/javascript">
 (function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
 </script>
-						<h2>¡MUCHAS GRACIAS POR TU APOYO!</h2>
+<a href="https://www.mercadopago.com/mlv/checkout/pay?pref_id=144225358-5f28b7c7-b9dd-4768-8514-29cce96440f3" name="MP-payButton" class="orange-ar-l-rn">Donación de Bs. 250</a>
+<script type="text/javascript">
+(function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+</script>
+<a href="https://www.mercadopago.com/mlv/checkout/pay?pref_id=144225358-8c0dea54-37a3-4d72-a4f1-2f5e9f4105bd" name="MP-payButton" class="green-ar-l-rn">Donación de Bs. 500</a>
+<script type="text/javascript">
+(function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+</script>
+						<h2 class="text-center">¡MUCHAS GRACIAS POR TU APOYO!</h2>
 
 				</div>
 		</div>
@@ -104,6 +87,7 @@
 	  				<a href="https://twitter.com/LAMUN_UCABG"><span class="fa fa-twitter fa-inverse fa-3x"></span></a>
 	  			</div>
 	  			<div class="col-md-1">
+	  				<a href="https://www.facebook.com/lamunucabg"><i class="fa fa-facebook-square fa-inverse fa-3x"></i></a>
 	  			</div>
 	  			<div class="col-md-1">
 		  			<a href="http://instagram.com/lamunucabg/"><span class="fa fa-instagram fa-inverse fa-3x"></span></a>

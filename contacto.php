@@ -50,7 +50,7 @@
       <form role="form" action="" method="post" >
         <div class="col-md-6">
           <div class="form-group">
-            <div id="titulo1"><h1 >Ya puedes escribirnos</h1></div>
+            <div id="titulo1"><h1 >Ya puedes escribirnos</h1><br>
             <label for="InputName">Indique su nombre</label>
             <div class="input-group">
               <input type="text" class="form-control" name="user" id="user" placeholder="Nombre y Apellido" required>
@@ -76,6 +76,7 @@
               <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
           </div>-->
           <input type="submit" name="submit" id="submit" value="Enviar" class="btn btn-info pull-right">
+          </div>
         </div>
       </form>
       <div class="col-md-2"></div>
@@ -107,6 +108,7 @@
             <a href="https://twitter.com/LAMUN_UCABG"><span class="fa fa-twitter fa-inverse fa-3x"></span></a>
           </div>
           <div class="col-md-1">
+            <a href="https://www.facebook.com/lamunucabg"><i class="fa fa-facebook-square fa-inverse fa-3x"></i></a>
           </div>
           <div class="col-md-1">
             <a href="http://instagram.com/lamunucabg/"><span class="fa fa-instagram fa-inverse fa-3x"></span></a>

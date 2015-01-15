@@ -30,16 +30,21 @@
 		80%;
 	}
 
-
-	h1{
+	#titulo1{
+		text-align: justify;
+		font-family: 'BenchNine', sans-serif;
+		font-size: 20px;
+	}
+	#titulo1 h1{
 		color: #00A6F6;
-		font-family: 'helvetica Neue';
-		font-size: 35px;
+		font-size: 40px;
+		font-family: 'BenchNine', sans-serif;
 		padding-bottom: 2%;
 		font-weight: bolder;
-		text-align: left;
+		text-align: justify;
 		width: 100%;
 		height: 40px;
+		margin-bottom: -2%;
 	}
 
 
@@ -47,8 +52,10 @@
 		width: 100%;
 		height: 40px;
 		color: #000;
-		font-size: 17px;
+		font-size: 26px;
 		text-align: justify;
+		margin-bottom: -4%;
+		font-family: 'BenchNine', sans-serif;
 	}
 
 	/*#titulo1 a{
@@ -66,7 +73,7 @@
 		width: 750px;
 	}
 
-	.container h1{
+	/*.container h1{
 		color: #00A6F6;
 		font-family: 'helvetica Neue';
 		font-size: 35px;
@@ -75,7 +82,7 @@
 		text-align: left;
 		width: 100%;
 		height: 40px;
-	}
+	}*/
 
 	.slider { 
 	  position: relative;
